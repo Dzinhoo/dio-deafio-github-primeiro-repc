@@ -1,0 +1,5 @@
+link para download do Git : https://git-scm.com/downloads
+
+Comandos para Git : git status (mostra o que tem na pasta na qual esta utilizando)
+   git add .  // ou git add -A(para o enetender que queremos adicionar a nova alteracao)
+   git commit -m "escrever comentario" (Incluir as modificacoes feitas no pc para enviar para o GitHub)
