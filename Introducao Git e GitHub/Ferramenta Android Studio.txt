@@ -1,0 +1,20 @@
+# Para deixar a localização de determinado app para a linguagem PT-Br, devemos após rodar o app em nossa máquina, ir em: 
+Values > botão direito New / Values Resource File > em File Name digitar (strings.xml) > em Available qualifiers: (Clicar em Locale e depois nas setas >>)
+ > Language: pt > Speccific Region Only: BR
+Após clicar em OK !!
+
+Logo após clicar em strings.xml, copiar a linha 2 <string name= ........      e colar no strings.xml(pt-rBR)e alterar o nome para algum nome em Pt
+
+# Compartilhando projeto para GitHub:
+
+No GitHub > criar um novo repositório colocando nome e descrição(caso queira)
+
+No Android Studio ir em Terminal para abrir o GitBash por ele (caso não esteja configurado é necessário ir em Settings > escrever Terminal na cx de pesquisa >
+mudar o diretório para o GitBash e aplicar
+
+No terminal(OBS: Todos os comandos aparecem no próprio GitHub): 
+             digitar >> git init                      clear = limpar cx do terminal
+                        git add .                  (git status) para verificar se as alterações foram salvas
+                        git commit -m "first commit"
+                        git remote add origin https://github.com/Dzinhoo/matches-simulator-app.git
+                        git push -u origin main  
